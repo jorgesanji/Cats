@@ -1,0 +1,6 @@
+framework module Pods_netquest_netquestUITests {
+  umbrella header "Pods-netquest-netquestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

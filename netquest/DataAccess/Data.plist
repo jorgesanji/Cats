@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Crendentials</key>
+	<dict>
+		<key>refreshToken</key>
+		<string>5a6d114da4ebe6e7b20b647800512e3f2e3d15cc</string>
+		<key>clientId</key>
+		<string>f7847488962980c</string>
+		<key>clientSecret</key>
+		<string>8ded776eff72983f20b4e31b690192297e9a0075</string>
+	</dict>
+</dict>
+</plist>
