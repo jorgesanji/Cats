@@ -36,8 +36,8 @@ final class GalleryViewController: UIViewController {
 		refreshControl.addTarget(self, action: #selector(self.refresh(_:)), for: .valueChanged)
 		collectionView.addSubview(refreshControl)
 		
-		collectionView.showsVerticalScrollIndicator = false
-		collectionView.verticalScrollIndicatorInsets = UIEdgeInsets(top: 0, left: 5, bottom: 0, right: 5)
+		collectionView.showsVerticalScrollIndicator = true
+		collectionView.verticalScrollIndicatorInsets = UIEdgeInsets(top: 0, left: 5, bottom: 0, right: 0)
 		
 		let refreshButton = UIBarButtonItem(barButtonSystemItem: .refresh, target: self, action: #selector(self.refreshButton(_:)))
 		self.navigationItem.rightBarButtonItem = refreshButton
